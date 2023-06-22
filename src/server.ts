@@ -32,6 +32,7 @@ app.register(uploadRoutes)
 app
   .listen({
     port: 3334,
+    host: '0.0.0.0',
   })
   .then(() => {
     console.log('🚀 http server running on 3334')
